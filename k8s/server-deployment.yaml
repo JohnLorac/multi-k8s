@@ -1,11 +1,11 @@
 apiVersion: apps/v1
-type: Deployment
-medatada:
+kind: Deployment
+metadata:
   name: server-deployment
 spec:
   replicas: 3
   selector:
-    matchLabes:
+    matchLabels:
       component: server
   template:
     metadata:
