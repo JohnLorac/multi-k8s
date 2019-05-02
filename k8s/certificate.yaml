@@ -1,9 +1,9 @@
 apiVersion: certmanager.k8s.io/v1alpha1
 kind: Certificate
 metadata:
-  name: k8s-multi-com-tls
+  name: k8s-johnlorac-com-tls
 spec:
-  secretName: k8s-mult-com
+  secretName: k8s-johnlorac-com
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
